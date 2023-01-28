@@ -1,1 +1,2 @@
+eb init
 eb deploy
