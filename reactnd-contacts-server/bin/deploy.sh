@@ -1,2 +1,2 @@
-eb init
-eb deploy
+pwd
+eb deploy reactnd-contacts-server-dev
