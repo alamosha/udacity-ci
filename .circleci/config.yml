@@ -38,8 +38,5 @@ jobs:
       - eb/setup
       - run:
           name: Deploy Backend Application
-          app-dir: reactnd-contacts-server
           command: |
-            cd reactnd-contacts-server
-            eb deploy reactnd-contacts-server-dev
-            eb status
+            npm run backend:deploy
